@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <p id="message">🔮 랜덤 숫자: 1에서 100까지 🔮</p>
+    <p id="message">모 아니면 도</p>
     <button onclick="showRandomNumber()">눌러서 확인하기</button>
 
     <script>
