@@ -29,7 +29,7 @@
 
 <body>
 
-    <p id="message">🔮 마법의 NFC가 말하길... 🔮</p>
+    <p id="message">🔮 모아니면 도 🔮</p>
 
     <button onclick="showRandomMessage()">눌러서 확인하기</button>
 
@@ -39,17 +39,13 @@
 
         function showRandomMessage() {
 
-            const messages = [
+            const messages = 
 
-                "기다려 보세요.",
+import random
 
-                "안 돼요!",
+random_number = random.randint(1, 100)
 
-                "한 번 더 해보세요.",
-
-                "좋은 생각이에요!",
-
-                "다시 시도해보세요."
+print(random_number)
 
             ];
 
