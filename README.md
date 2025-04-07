@@ -20,7 +20,6 @@
 
     <script>
         function showRandomNumber() {
-            // 1에서 100까지 랜덤 숫자 생성
             const randomNumber = Math.floor(Math.random() * 100) + 1;
             document.getElementById("message").innerText = "랜덤 숫자: " + randomNumber;
         }
