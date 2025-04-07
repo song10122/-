@@ -15,12 +15,14 @@
 </head>
 
 <body>
-    <p id="message">🥵모 아니면 도☠️</p>
+    <p id="message">🔮 랜덤 숫자: 1에서 100까지 🔮</p>
     <button onclick="showRandomNumber()">눌러서 확인하기</button>
 
     <script>
         function showRandomNumber() {
+            // 1에서 100까지 랜덤 숫자 생성
             const randomNumber = Math.floor(Math.random() * 100) + 1;
+            // 랜덤 숫자를 메시지로 업데이트
             document.getElementById("message").innerText = "랜덤 숫자: " + randomNumber;
         }
     </script>
